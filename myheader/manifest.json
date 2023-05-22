@@ -1,0 +1,31 @@
+
+ {
+  "name": "idontknow",
+  "version": "1.0",
+  "background":{
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "description": "donttellmewhy",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_title": "idontknow",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },  
+    "default_width": 800,
+    "default_height": 600
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
